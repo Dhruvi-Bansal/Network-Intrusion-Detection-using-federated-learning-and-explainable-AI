@@ -37,6 +37,23 @@ Displays training metrics, comparisons, and explanations.
 | FedAvg | Federated (No Privacy Controls) | 73 | 0.40 | Improved privacy via decentralization but weaker convergence |
 | FedProx (Proposed) | Federated + Privacy Enhancements | 85 | 0.48 | Best privacy–utility trade-off under Non-IID data |
 
+## How to Run
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Dhruvi-Bansal/Network-Intrusion-Detection-using-federated-learning-and-explainable-AI.git
+cd Network-Intrusion-Detection-using-federated-learning-and-explainable-AI
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run Baseline Decision Tree
+### 4. Run fedavg, fedprox models
+### 5. Run MIA jupyter notebook for evaluating Privacy Score
+### 6. Launch Interactive Dashboard using command prompt
+```bash
+streamlit run app.py
+```
 
 ## Technologies Used
 -	Python

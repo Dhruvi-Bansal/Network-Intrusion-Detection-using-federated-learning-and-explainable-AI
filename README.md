@@ -7,7 +7,7 @@ Two heterogeneous real-world datasets—UNSW-NB15 and NF-UQ-NIDS—are used to s
 -	*Federated Learning from Scratch*:
 Manual implementation of FedAvg and FedProx algorithms for collaborative model training.
 -	*Privacy Quantification*:
--Privacy leakage measured using Membership Inference Attacks (MIA) with
+-Privacy leakage measured using Membership Inference Attacks (MIA) with<br>
 Privacy Score = 1 − Attack Success Rate (ASR).
 -	*Privacy-Enhanced FedProx*:
 Applied confidence clipping, Gaussian noise, Top-K filtering, and rounding, achieving significantly improved privacy with minimal accuracy loss.
